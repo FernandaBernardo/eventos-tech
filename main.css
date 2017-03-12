@@ -97,6 +97,7 @@ a {
 
 .event {
 	background-color: #eee;
+	box-shadow: 2px 2px 5px #666;
 	color: #2C3E50;
 	display: flex;
 	margin: 1rem auto;
@@ -113,6 +114,7 @@ a {
 }
 
 .event .name {
+	display: inline-block;
 	font-size: 1.5em;
 	font-weight: bold;
 	padding-bottom: 0.8em;
@@ -167,4 +169,16 @@ a {
 #submissao-palestras {
 	background-color: #fff;
 	color: #2C3E50;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #233140;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	padding: 1em; 
 }
