@@ -28,7 +28,7 @@ a {
 }
 
 .container {
-	padding: 0 4%;
+	padding: 0 10%;
 }
 
 .title {
@@ -46,8 +46,9 @@ a {
 	background-color: #2C3E50;
 	color: #fff;
 	display: flex;
-	justify-content: space-around;
-	padding: 1em;
+	justify-content: space-between;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .header a {
@@ -71,14 +72,17 @@ a {
 
 .nav-list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
-.nav-item a{
+.nav-item a {
 	border: 1px solid #fff;
 	border-radius: 4px;
-	margin-right: 1em;	
 	padding: 0.6em;
+}
+
+.nav-item:first-child a {
+	margin-right: 1em;
 }
 
 .nav-item a:hover {
@@ -93,6 +97,7 @@ a {
 	background-color: #18BC9C; 
 	color: #fff;
 	overflow: hidden;
+	padding-bottom: 2em;
 }
 
 #proximos-eventos .event {
@@ -181,6 +186,8 @@ a {
 #submissao-palestras {
 	background-color: #fff;
 	color: #2C3E50;
+	padding-bottom: 2em;
+	padding-top: 1em;
 }
 
 #submissao-palestras .event {
@@ -197,6 +204,39 @@ a {
 #submissao-palestras .event-infos li:before {
 	-webkit-filter: brightness(100);
 			filter: brightness(100);
+}
+
+/* NEW EVENT */
+
+#sugerir-evento {
+	background-color: #18BC9C;
+	color: #fff;
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+
+#sugerir-evento .title {
+	text-transform: inherit;
+	padding: 2rem 6rem 1rem;
+	line-height: 1.5;
+	font-size: 1.7em;
+}
+
+.new-event {
+	border: 2px solid #fff;
+	padding: 1em;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.2em;
+	margin: auto;
+	width: 30%;
+	display: block;
+	text-align: center;
+}
+
+.new-event:hover {
+	background-color: #fff; 
+	color: #18BC9C;
 }
 
 /* FOOTER */
