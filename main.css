@@ -262,6 +262,15 @@ a {
 	font-size: 1.7em;
 }
 
+#sugerir-evento span {
+	text-align: center;
+	display: block;
+}
+
+#sugerir-evento span a:hover {
+	text-decoration: underline;
+}
+
 .new-event {
 	border: 2px solid #fff;
 	padding: 1em;
@@ -283,6 +292,10 @@ a {
 	#sugerir-evento .title {
 		padding-left: 1em;
 		padding-right: 1em;
+	}
+
+	.new-event {
+		width: 50%;
 	}
 }
 
