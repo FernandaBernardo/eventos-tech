@@ -213,11 +213,13 @@ a {
 #proximos-eventos .event-media {
 	border-color: #2C3E50;
 	margin-left: 0;
+	min-width: 250px;
 }
 
 @media (max-width: 550px) {
 	#proximos-eventos .event-media, #submissao-palestras .event-media {
 		margin: 1em auto 2em;
+		min-width: 80%;
 	}
 }
 
