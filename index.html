@@ -2,8 +2,54 @@
 <html>
 <head>
 	<title>Eventos Tech</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<h1>Eventos Tech</h1>
+	<header class="header container">
+		<h1><a href="/">Eventos Tech</a></h1>
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="nav-item"><a href="#proximos-eventos">Próximos Eventos</a></li>
+				<li class="nav-item"><a href="#submissao-palestras">Submissão de Palestras</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="proximos-eventos" class="container">
+			<h3 class="title">Próximos Eventos</h3>
+			<article class="event">
+				<a class="event-media" href="http://www.frontinsampa.com.br/" target="_blank">
+					<img alt="Front in Sampa" src="https://cloud.githubusercontent.com/assets/1714296/21594300/23f7a5d2-d108-11e6-8b31-30dd197a40b3.png">
+				</a>
+				<section class="event-main">
+					<h2 class="name"><a href="http://www.frontinsampa.com.br/" target="_blank">Front in Sampa 2017</a></h2>
+					<p class="description">Frontinsampa - 6ª edição do maior evento de desenvolvimento front-end em São Paulo</p>
+					<ul class="event-infos">
+						<li class="link"><a href="http://www.frontinsampa.com.br/" target="_blank">http://www.frontinsampa.com.br/</a></li>
+						<li class="date">01/07/2017</li>
+						<li class="price">a partir de R$230,00</li>
+						<li class="address"><a href="https://www.google.com.br/maps/place/Teatro+Maksoud+Plaza/@-23.5631973,-46.6533364,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c7f895c915:0x6bd71858382f31fc!8m2!3d-23.5631973!4d-46.6511477?shorturl=1" target="_blank">Teatro do Hotel Maksoud Plaza - São Paulo/SP</a></li>
+					</ul>
+				</section>
+			</article>
+		</section>
+		<section id="submissao-palestras" class="container">
+			<h3 class="title">Submissão de Palestras</h3>	
+		</section>
+	</main>
+	<footer class="container">
+		
+	</footer>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-93509291-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>

@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXZ2MAKAc2x4R1uOSeegc5U.eot#) format("eot"),url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format("woff2"),url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format("woff")
+}
+
+@font-face {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	src: url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnZ2MAKAc2x4R1uOSeegc5U.eot#) format("eot"),url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff2"),url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff")
+}
+
+/* 
+	azul escuro: #2C3E50;
+	verde: #18BC9C;
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	padding: 0 4%;
+}
+
+.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 2rem 1rem 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* HEADER */
+
+.header {
+	align-items: center;
+	background-color: #2C3E50;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding: 1em;
+}
+
+.header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header h1 {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.header h1:hover {
+	color: #18BC9C;
+}
+
+.nav, .nav-list, .nav-item {
+	display: inline-block;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-item a{
+	border: 1px solid #fff;
+	border-radius: 4px;
+	margin-right: 1em;	
+	padding: 0.6em;
+}
+
+.nav-item a:hover {
+	background-color: #18BC9C;
+	border: 1px solid #18BC9C;
+	color: #fff;
+}
+
+/* NEXT EVENTS */
+
+#proximos-eventos {
+	background-color: #18BC9C; 
+	color: #fff;
+	overflow: hidden;
+}
+
+.event {
+	background-color: #eee;
+	color: #2C3E50;
+	display: flex;
+	margin: 1rem auto;
+	padding: 2rem;
+}
+
+.event-media {
+	border: 3px solid #2C3E50;
+	margin: 2em;
+}
+
+.event-media:hover {
+	opacity: 0.6;
+}
+
+.event .name {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.8em;
+}
+
+.event .name:hover {
+	color: #18BC9C;
+}
+
+.event .description {
+	font-size: 1.2em;
+	padding-bottom: 1em;
+	text-align: justify;
+}
+
+.event-infos a:hover {
+	color: #18BC9C;
+	text-decoration: underline;
+}
+
+.event-infos li {
+	margin-bottom: 0.3em;
+}
+
+.event-infos li:before {
+	display: inline-block;
+	height: 24px;
+	margin-right: 0.5em;
+	vertical-align: middle;
+	width: 24px;
+}
+
+.event-infos .link:before {
+	content: url("images/link.png");
+}
+
+.event-infos .date:before {
+	content: url("images/calendar.png");
+}
+
+.event-infos .price:before {
+	content: url("images/ticket.png");
+}
+
+.event-infos .address:before {
+	content: url("images/map.png");
+
+}
+
+/* SUBMISSIONS */
+
+#submissao-palestras {
+	background-color: #fff;
+	color: #2C3E50;
+}
