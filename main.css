@@ -95,18 +95,27 @@ a {
 	overflow: hidden;
 }
 
+#proximos-eventos .event {
+	background-color: #eee;
+	color: #2C3E50;
+}
+
+#proximos-eventos .event-media {
+	border-color: #2C3E50;
+	margin-left: 0;
+}
+
 .event {
 	align-items: center;
-	background-color: #eee;
 	box-shadow: 2px 2px 5px #666;
-	color: #2C3E50;
 	display: flex;
 	margin: 1rem auto;
 	padding: 2rem;
 }
 
 .event-media {
-	border: 3px solid #2C3E50;
+	border-style: solid;
+	border-width: 3px;
 	height: 100%;
 	margin: 2em;
 }
@@ -128,6 +137,7 @@ a {
 
 .event .description {
 	font-size: 1.2em;
+	line-height: 1.2;
 	padding-bottom: 1em;
 	text-align: justify;
 }
@@ -171,6 +181,22 @@ a {
 #submissao-palestras {
 	background-color: #fff;
 	color: #2C3E50;
+}
+
+#submissao-palestras .event {
+	background-color: #2C3E50;
+	color: #eee;
+	flex-direction: column;
+}
+
+#submissao-palestras .event-media {
+	border-color: #eee;
+	margin-top: 0; 
+}
+
+#submissao-palestras .event-infos li:before {
+	-webkit-filter: brightness(100);
+			filter: brightness(100);
 }
 
 /* FOOTER */
