@@ -13,8 +13,8 @@
 }
 
 /* 
-	azul escuro: #2C3E50;
-	verde: #18BC9C;
+	dark blue: #2C3E50;
+	green: #18BC9C;
 */
 
 body {
@@ -84,8 +84,8 @@ a {
 
 @media (min-width: 700px) {
 	.header {
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: space-between;
 	}
 
@@ -99,24 +99,7 @@ a {
 	}
 }
 
-/* NEXT EVENTS */
-
-#proximos-eventos {
-	background-color: #18BC9C; 
-	color: #fff;
-	overflow: hidden;
-	padding-bottom: 2em;
-}
-
-#proximos-eventos .event {
-	background-color: #eee;
-	color: #2C3E50;
-}
-
-#proximos-eventos .event-media {
-	border-color: #2C3E50;
-	margin-left: 0;
-}
+/* EVENT LIST */
 
 .event {
 	align-items: center;
@@ -161,7 +144,13 @@ a {
 }
 
 .event-infos li {
+	line-height: 1.2;
 	margin-bottom: 0.3em;
+	word-break: break-word;
+}
+
+.event-infos .link {
+	word-break: break-all;
 }
 
 .event-infos li:before {
@@ -186,7 +175,47 @@ a {
 
 .event-infos .address:before {
 	content: url("images/map.png");
+}
 
+@media (max-width: 550px) {
+	.event {
+		display: block;
+	}
+
+	.event-media {
+		display: block;
+		text-align: center;
+		max-width: 40%;
+	}
+
+	.event-media img {
+		width: 100%;
+	}
+}
+
+/* NEXT EVENTS */
+
+#proximos-eventos {
+	background-color: #18BC9C; 
+	color: #fff;
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+
+#proximos-eventos .event {
+	background-color: #eee;
+	color: #2C3E50;
+}
+
+#proximos-eventos .event-media {
+	border-color: #2C3E50;
+	margin-left: 0;
+}
+
+@media (max-width: 550px) {
+	#proximos-eventos .event-media, #submissao-palestras .event-media {
+		margin: 1em auto 2em;
+	}
 }
 
 /* SUBMISSIONS */
@@ -245,6 +274,13 @@ a {
 .new-event:hover {
 	background-color: #fff; 
 	color: #18BC9C;
+}
+
+@media (max-width: 550px) {
+	#sugerir-evento .title {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
 
 /* FOOTER */
