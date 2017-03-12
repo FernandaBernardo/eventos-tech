@@ -42,11 +42,8 @@ a {
 /* HEADER */
 
 .header {
-	align-items: center;
 	background-color: #2C3E50;
 	color: #fff;
-	display: flex;
-	justify-content: space-between;
 	padding-bottom: 1em;
 	padding-top: 1em;
 }
@@ -57,38 +54,49 @@ a {
 }
 
 .header h1 {
-	display: inline-block;
 	font-size: 2em;
 	font-weight: bold;
+	text-align: center;
 }
 
 .header h1:hover {
 	color: #18BC9C;
 }
 
-.nav, .nav-list, .nav-item {
-	display: inline-block;
-}
-
-.nav-list {
-	display: flex;
-	justify-content: space-between;
+.nav-item {
+	margin: 1em auto; 
+	text-align: center;
+	width: 50%;
 }
 
 .nav-item a {
 	border: 1px solid #fff;
 	border-radius: 4px;
+	display: block;
 	padding: 0.6em;
-}
-
-.nav-item:first-child a {
-	margin-right: 1em;
 }
 
 .nav-item a:hover {
 	background-color: #18BC9C;
 	border: 1px solid #18BC9C;
 	color: #fff;
+}
+
+@media (min-width: 700px) {
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.nav-item {
+		display: inline-block;
+		width: inherit;
+	}
+
+	.nav-item:first-child a {
+		margin-right: 1em;
+	}
 }
 
 /* NEXT EVENTS */
@@ -228,7 +236,7 @@ a {
 	border-radius: 4px;
 	color: #fff;
 	font-size: 1.2em;
-	margin: auto;
+	margin: 1em auto;
 	width: 30%;
 	display: block;
 	text-align: center;
