@@ -96,6 +96,7 @@ a {
 }
 
 .event {
+	align-items: center;
 	background-color: #eee;
 	box-shadow: 2px 2px 5px #666;
 	color: #2C3E50;
@@ -106,6 +107,7 @@ a {
 
 .event-media {
 	border: 3px solid #2C3E50;
+	height: 100%;
 	margin: 2em;
 }
 
@@ -181,4 +183,11 @@ footer p {
 	color: #fff;
 	text-align: center;
 	padding: 1em; 
+}
+
+/* SPECIFIC EVENTS */
+
+.front-in-vale {
+	padding: 1em;
+	background-color: #2C3E50;
 }
