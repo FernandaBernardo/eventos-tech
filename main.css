@@ -216,6 +216,11 @@ a {
 	min-width: 250px;
 }
 
+@media (max-width: 750px) {
+	#proximos-eventos .event-media, #submissao-palestras .event-media {
+		min-width: 40%;
+	}
+}
 @media (max-width: 550px) {
 	#proximos-eventos .event-media, #submissao-palestras .event-media {
 		margin: 1em auto 2em;
