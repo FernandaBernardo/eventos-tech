@@ -12,7 +12,7 @@
 	src: url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnZ2MAKAc2x4R1uOSeegc5U.eot#) format("eot"),url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff2"),url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff")
 }
 
-/* 
+/*
 	dark blue: #2C3E50;
 	green: #18BC9C;
 */
@@ -64,7 +64,7 @@ a {
 }
 
 .nav-item {
-	margin: 1em auto; 
+	margin: 1em auto;
 	text-align: center;
 	width: 50%;
 }
@@ -199,7 +199,7 @@ a {
 /* NEXT EVENTS */
 
 #proximos-eventos {
-	background-color: #18BC9C; 
+	background-color: #18BC9C;
 	color: #fff;
 	overflow: hidden;
 	padding-bottom: 2em;
@@ -238,7 +238,7 @@ a {
 
 #submissao-palestras .event-media {
 	border-color: #eee;
-	margin-top: 0; 
+	margin-top: 0;
 }
 
 #submissao-palestras .event-infos li:before {
@@ -284,7 +284,7 @@ a {
 }
 
 .new-event:hover {
-	background-color: #fff; 
+	background-color: #fff;
 	color: #18BC9C;
 }
 
@@ -308,7 +308,7 @@ footer {
 footer p {
 	color: #fff;
 	text-align: center;
-	padding: 1em; 
+	padding: 1em;
 }
 
 /* SPECIFIC EVENTS */
