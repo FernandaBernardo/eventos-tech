@@ -115,7 +115,7 @@ a {
 	flex: 0 0 auto;
 	height: 100%;
 	margin: 2em;
-	max-width: 15%;
+	width: 15%;
 	padding: 1em;
 }
 
@@ -124,7 +124,7 @@ a {
 }
 
 .event-media img {
-	max-width: 100%;
+	width: 100%;
 }
 
 .event .name {
@@ -192,7 +192,7 @@ a {
 	.event-media {
 		display: block;
 		text-align: center;
-		max-width: 40%;
+		width: 40%;
 	}
 }
 
