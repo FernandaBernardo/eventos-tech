@@ -117,6 +117,7 @@ a {
 	margin: 2em;
 	max-width: 15%;
 	padding: 1em;
+	text-align: center;
 }
 
 .event-media:hover {
