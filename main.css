@@ -103,7 +103,7 @@ a {
 
 .event {
 	align-items: center;
-	box-shadow: 2px 2px 5px #666;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 	display: flex;
 	margin: 1rem auto;
 	padding: 2rem;
