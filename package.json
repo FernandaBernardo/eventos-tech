@@ -1,0 +1,14 @@
+{
+  "name": "eventos-tech",
+  "version": "0.1.0",
+  "description": "Lista com os próximos eventos/meetups/reuniões de Tecnologia",
+  "dependencies": {
+    "docpad": "6.79.4",
+    "docpad-plugin-ghpages": "2.4.4",
+    "docpad-plugin-handlebars": "2.4.0"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "docpad run"
+  }
+}

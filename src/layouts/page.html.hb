@@ -14,12 +14,12 @@
 	<meta property="og:description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
 	<meta property="og:site_name" content="Eventos Tech">
 	<meta itemprop="description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="{{site.baseUrl}}/reset.css">
+	<link rel="stylesheet" type="text/css" href="{{site.baseUrl}}/main.css">
 </head>
 <body>
 	<header class="header container">
-		<h1><a href="index.html"><img src="images/logo.png" alt="Eventos Tech"></a></h1>
+		<h1><a href="{{site.baseUrl}}"><img src="images/logo.png" alt="Eventos Tech"></a></h1>
 		<nav class="nav">
 			<ul class="nav-list">
 				<li class="nav-item"><a href="#proximos-eventos">Próximos Eventos</a></li>
@@ -143,6 +143,7 @@
 			<a class="new-event" href="https://github.com/fernandabernardo/eventos-tech/issues">Sugerir Evento</a>
 			<span>*Mais informações no <a href="https://github.com/fernandabernardo/eventos-tech">README</a></span>
 		</section>
+        {{{content}}}
 	</main>
 	<footer class="container">
 		<p>Copyright © Eventos Tech <script>now = new Date; document.write(now.getFullYear());</script></p>
