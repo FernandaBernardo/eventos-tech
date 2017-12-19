@@ -19,7 +19,7 @@
 </head>
 <body>
 	<header class="header container">
-		<h1><a href="{{site.baseUrl}}"><img src="images/logo.png" alt="Eventos Tech"></a></h1>
+		<h1><a href="{{site.baseUrl}}"><img src="{{site.baseUrl}}/images/logo.png" alt="Eventos Tech"></a></h1>
 		<nav class="nav">
 			<ul class="nav-list">
 				<li class="nav-item"><a href="#proximos-eventos">Próximos Eventos</a></li>
@@ -30,81 +30,23 @@
 	<main>
 		<section id="proximos-eventos" class="container">
 			<h3 class="title">Próximos Eventos</h3>
-			<article class="event">
-				<a class="event-media dark-image" href="http://www.thedevelopersconference.com.br/" target="_blank">
-					<img alt="The Developer's Conference" src="http://www.thedevelopersconference.com.br/img/logos/logo-tdc-horizontal-navbar-inverse.png">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="http://www.thedevelopersconference.com.br/" target="_blank">The Developer's Conference</a></h2>
-					<p class="description">Em breve</p>
-					<ul class="event-infos">
-						<li class="link"><a href="http://www.thedevelopersconference.com.br/" target="_blank">http://www.thedevelopersconference.com.br/</a></li>
-						<li class="date">11 a 15 de julho</li>
-						<li class="price">Em breve</li>
-						<li class="address"><a href="https://www.google.com.br/maps/place/Universidade+Anhembi+Morumbi+C%C3%A2mpus+Vila+Ol%C3%ADmpia/@-23.6001012,-46.6791652,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce57536602d7f7:0xe8034f1be9c3a8b8!8m2!3d-23.6001012!4d-46.6769765?hl=pt-BR" target="_blank">Universidade Anhembi Morumbi - São Paulo/SP</a></li>
-					</ul>
-				</section>
-			</article>
-			<article class="event">
-				<a class="event-media dark-image" href="https://www.eventick.com.br/frontinvale2017" target="_blank">
-					<img alt="Front in Vale" src="http://frontinvale.com.br/images/front-in-vale.svg">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="https://www.eventick.com.br/frontinvale2017" target="_blank">Front in Vale 2017</a></h2>
-					<p class="description">Terceira edição do maior evento de Front-End do Vale do Paraíba. Um dia inteiro com conteúdos incríveis para você se tornar um front-end monstro! ;)</p>
-					<ul class="event-infos">
-						<li class="link"><a href="https://www.eventick.com.br/frontinvale2017" target="_blank">https://www.eventick.com.br/frontinvale2017</a></li>
-						<li class="date">16/09/2017</li>
-						<li class="price">a partir de R$65,00 (vendas em 01/07)</li>
-						<li class="address"><a href="https://www.google.com/maps/preview?q=Faro+Hotel+-+Rua+S%C3%ADria,+Jardim+Oswaldo+Cruz,+S%C3%A3o+Jos%C3%A9+dos+Campos+-+S%C3%A3o+Paulo,+Brasil&hl=pt-BR&ie=UTF8&ll=-23.196523,-45.88264&spn=0.011794,0.019741&sll=37.0625,-95.677068&sspn=41.496446,80.859375&oq=Faro+Hotel&t=m&z=16&iwloc=A" target="_blank">Faro Hotel - São José dos Campos/SP</a></li>
-					</ul>
-				</section>
-			</article>
-			<article class="event">
-				<a class="event-media dark-image" href="http://www.agilebrazil.com/2017/" target="_blank">
-					<img alt="Agile Brazil" src="http://www.agilebrazil.com/2017/wp-content/themes/ab2017/assets/img/logo-agile-brazil.svg">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="http://www.agilebrazil.com/2017/" target="_blank">Agile Brazil 2017</a></h2>
-					<p class="description">Convidamos a comunidade ágil para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura. Em 2017 nossa conveção será realizada em Belém do Pará no Hangar!</p>
-					<ul class="event-infos">
-						<li class="link"><a href="http://www.agilebrazil.com/2017/" target="_blank">http://www.agilebrazil.com/2017/</a></li>
-						<li class="date">13, 14 e 15 de setembro</li>
-						<li class="price">Em breve</li>
-						<li class="address"><a href="https://www.google.com.br/maps/place/Hangar+-+Centro+de+Conven%C3%A7%C3%B5es+e+Feiras+da+Amaz%C3%B4nia/@-1.4204368,-48.4482257,13.54z/data=!4m5!3m4!1s0x92a48b899ad1cfc5:0x3d9b576adf20e9e2!8m2!3d-1.4217252!4d-48.4567773?hl=pt-BR" target="_blank">Hangar - Belém/PA</a></li>
-					</ul>
-				</section>
-			</article>
-			<article class="event">
-				<a class="event-media" href="http://reactconfbr.com.br/" target="_blank">
-					<img alt="React Conf Br" src="https://scontent.fldb1-1.fna.fbcdn.net/v/t1.0-9/19366420_231009184083433_8298607544036184477_n.png?oh=c9b6cb8e540ad661786ff541bc5ec271&oe=59E027C5">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="http://reactconfbr.com.br/" target="_blank">React Conf 2017</a></h2>
-					<p class="description">A primeira React Conf da América Latina é no Brasil. Inspirados nas conferências dos Estados Unidos e Europa, queremos reunir em um único dia o bleeding edge dos desenvolvedores e empresas de tecnologia, com um único propósito: move foward.</p>
-					<ul class="event-infos">
-						<li class="link"><a href="http://reactconfbr.com.br/" target="_blank">http://reactconfbr.com.br/</a></li>
-						<li class="date">7 de outubro</li>
-						<li class="price">A partir de R$90,00</li>
-						<li class="address"><a href="#" target="_blank">Em breve - São Paulo/SP</a></li>
-					</ul>
-				</section>
-			</article>
-			<article class="event">
-				<a class="event-media" href="https://intercon2017.imasters.com.br/" target="_blank">
-					<img alt="iMasters InterCon" src="https://imasters.com.br/wp-content/uploads/2014/10/imasters-cubo-fb.png">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="https://intercon2017.imasters.com.br/" target="_blank">iMasters InterCon 2017</a></h2>
-					<p class="description">Em sua 15ª edição e cada vez mais focado em desenvolvimento web de alto nível, o InterCon reunirá 1.800 developers em 3 grandes auditórios, uma maratona hacker, fablab, community spaces e diversos espaços simultâneos, se posicionando como a maior conferência dev da América Latina.</p>
-					<ul class="event-infos">
-						<li class="link"><a href="https://intercon2017.imasters.com.br/" target="_blank">https://intercon2017.imasters.com.br/</a></li>
-						<li class="date">20 e 21 de outubro</li>
-						<li class="price">Em breve</li>
-						<li class="address"><a href="https://www.google.com.br/maps/place/World+Trade+Center+S%C3%A3o+Paulo/@-23.6086132,-46.6992691,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce5a7234b1a1c9:0x91fc795181d0e13f?hl=pt-BR" target="_blank">WTC Events Center - São Paulo/SP</a></li>
-					</ul>
-				</section>
-			</article>
+			{{#each (getCollection "events")}}
+				<article class="event">
+					<a class="event-media dark-image" href="{{url}}" target="_blank">
+						<img alt="{{name}}" src="{{url_image}}">
+					</a>
+					<section class="event-main">
+						<h2 class="name"><a href="{{url}}" target="_blank">{{name}}</a></h2>
+						<p class="description">{{description}}</p>
+						<ul class="event-infos">
+							<li class="link"><a href="{{url}}" target="_blank">{{url}}</a></li>
+							<li class="date">{{date_event}}</li>
+							<li class="price">{{price}}</li>
+							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
+						</ul>
+					</section>
+				</article>
+			{{/each}}
 		</section>
 
 		<section id="submissao-palestras" class="container">

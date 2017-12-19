@@ -5,7 +5,8 @@
   "dependencies": {
     "docpad": "6.79.4",
     "docpad-plugin-ghpages": "2.4.4",
-    "docpad-plugin-handlebars": "2.4.0"
+    "docpad-plugin-handlebars": "2.4.0",
+    "docpad-plugin-markit": "2.4.0"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
