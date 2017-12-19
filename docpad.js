@@ -17,6 +17,9 @@ const docpadConfig = function() {
             var collections = {
                 events: function() {
                     return this.getCollection('html').findAll({type: 'events'});
+                },
+                call4papers: function() {
+                    return this.getCollection('html').findAll({type: 'call4papers'});
                 }
             };
 

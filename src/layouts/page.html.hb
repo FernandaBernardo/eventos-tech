@@ -51,34 +51,22 @@
 
 		<section id="submissao-palestras" class="container">
 			<h3 class="title">Submeter Palestras</h3>
-			<article class="event">
-				<a class="event-media dark-image" href="https://docs.google.com/forms/d/1Z_bG6lRJrMa6wnhy4KGoL_UkJ9cAQpYrgvepBdFOt7w/viewform?edit_requested=true" target="_blank">
-					<img alt="Front in Vale" src="http://frontinvale.com.br/images/front-in-vale.svg">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="https://docs.google.com/forms/d/1Z_bG6lRJrMa6wnhy4KGoL_UkJ9cAQpYrgvepBdFOt7w/viewform?edit_requested=true" target="_blank">Call4Papers - Front in Vale 2017</a></h2>
-					<p class="description">Além das palestras tradicionais, neste ano iremos abrir espaço para a comunidade através dos lightning talks. Serão 8 durante o dia, sendo 4 na parte da manhã e 4 na parte da tarde. Cada palestrante terá 10 minutos para a apresentação.</p>
-					<ul class="event-infos">
-						<li class="link"><a href="https://docs.google.com/forms/d/1Z_bG6lRJrMa6wnhy4KGoL_UkJ9cAQpYrgvepBdFOt7w/viewform?edit_requested=true" target="_blank">Submeter trilha! (Até 20/03)</a></li>
-						<li class="date">Evento: 16/09/2017</li>
-						<li class="address"><a href="https://www.google.com/maps/preview?q=Faro+Hotel+-+Rua+S%C3%ADria,+Jardim+Oswaldo+Cruz,+S%C3%A3o+Jos%C3%A9+dos+Campos+-+S%C3%A3o+Paulo,+Brasil&hl=pt-BR&ie=UTF8&ll=-23.196523,-45.88264&spn=0.011794,0.019741&sll=37.0625,-95.677068&sspn=41.496446,80.859375&oq=Faro+Hotel&t=m&z=16&iwloc=A" target="_blank">Faro Hotel - São José dos Campos/SP</a></li>
-					</ul>
-				</section>
-			</article>
-			<article class="event">
-				<a class="event-media dark-image" href="https://www.papercall.io/reactconfbr" target="_blank">
-					<img alt="React Conf 2017" src="https://scontent.fldb1-1.fna.fbcdn.net/v/t1.0-9/19366420_231009184083433_8298607544036184477_n.png?oh=c9b6cb8e540ad661786ff541bc5ec271&oe=59E027C5">
-				</a>
-				<section class="event-main">
-					<h2 class="name"><a href="https://www.papercall.io/reactconfbr" target="_blank">Call4Papers - React Conf 2017</a></h2>
-					<p class="description">Se você tem uma palestra inédita, com temas relacionados a React JS, React Native, Fiber, GraphQL, Redux, Relay, Jest, PWAs, ou outros frameworks e bibliotecas reativas, envie sua proposta. Responderemos a todos.</p>
-					<ul class="event-infos">
-						<li class="link"><a href="https://www.papercall.io/reactconfbr" target="_blank">Submeter palestra! (Até 31/08)</a></li>
-						<li class="date">Evento: 07/10/2017</li>
-						<li class="address"><a href="#" target="_blank">Em breve - São Paulo/SP</a></li>
-					</ul>
-				</section>
-			</article>
+			{{#each (getCollection "call4papers")}}
+				<article class="event">
+					<a class="event-media dark-image" href="{{url}}" target="_blank">
+						<img alt="{{name}}" src="{{url_image}}">
+					</a>
+					<section class="event-main">
+						<h2 class="name"><a href="{{url}}" target="_blank">Call4Papers - {{name}}</a></h2>
+						<p class="description">{{description}}</p>
+						<ul class="event-infos">
+							<li class="link"><a href="{{url}}" target="_blank">Submeter palestra! (Até {{submission_date}})</a></li>
+							<li class="date">Evento: {{date_event}}</li>
+							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
+						</ul>
+					</section>
+				</article>
+			{{/each}}
 		</section>
 		<section id="sugerir-evento" class="container">
 			<h3 class="title">Conhece mais algum evento de tecnologia que não está na lista?</h3>
