@@ -1,0 +1,21 @@
+{
+  "name": "eventos-tech",
+  "version": "0.1.0",
+  "description": "Lista com os próximos eventos/meetups/reuniões de Tecnologia",
+  "dependencies": {
+    "docpad": "6.79.4",
+    "docpad-plugin-ghpages": "2.4.4",
+    "docpad-plugin-handlebars": "2.4.0",
+    "docpad-plugin-markit": "2.4.0",
+    "inquirer": "4.0.1",
+    "shelljs": "^0.7.8",
+    "slug": "^0.9.1"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "docpad run",
+    "new-event": "./new-event.js",
+    "new-call4paper": "./new-call4paper.js",
+    "deploy": "npm install && docpad deploy-ghpages --silent --env static"
+  }
+}
