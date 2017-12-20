@@ -1,7 +1,7 @@
 # Eventos Tech
 Lista com os próximos eventos/meetups/reuniões de Tecnologia
 
-# Quero sugerir um evento
+# Quero sugerir um Evento ou Call4Paper
 Caso conheça ou esteja organizando algum evento pode adicionar aqui. Existem duas formas de adicionar um evento:
 
 ## Pull Request
@@ -14,12 +14,11 @@ Caso conheça ou esteja organizando algum evento pode adicionar aqui. Existem du
 ## Issue
 Você também pode abrir uma issue, contendo as seguintes informações do seu evento:
 
-*Nome do evento*
-*Data*
-*Local*
-*Descrição breve do evento*
-*Valor do ingresso*
-*Site do evento*
-
-# Submeter Palestras
-Para essa seção são seguidas as mesmas regras de sugerir um evento.
+```
+Nome do evento
+Data
+Local
+Descrição breve do evento
+Valor do ingresso
+Site do evento
+```
