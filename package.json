@@ -15,6 +15,7 @@
   "scripts": {
     "start": "docpad run",
     "new-event": "./new-event.js",
-    "new-call4paper": "./new-call4paper.js"
+    "new-call4paper": "./new-call4paper.js",
+    "deploy": "npm install && docpad deploy-ghpages --silent --env static"
   }
 }
