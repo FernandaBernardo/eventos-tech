@@ -19,7 +19,7 @@ const questions = [
 inquirer.prompt(questions).then(answers => {
     const eventName = answers.name,
         fileName = slug(eventName.toLowerCase()),
-        filePath = 'src/events/' + fileName + '.html.md';
+        filePath = 'src/call4papers/' + fileName + '.html.md';
 
     shell.touch(filePath);
 
