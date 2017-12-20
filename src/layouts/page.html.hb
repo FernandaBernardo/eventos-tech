@@ -62,7 +62,7 @@
 						<p class="description">{{description}}</p>
 						<ul class="event-infos">
 							<li class="link"><a href="{{url}}" target="_blank">Submeter palestra! (Até {{submission_date}})</a></li>
-							<li class="date">Evento: {{date_event}}</li>
+							<li class="date">Evento: {{formatDate date_event}}</li>
 							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
 						</ul>
 					</section>
