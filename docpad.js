@@ -13,6 +13,15 @@ const docpadConfig = function() {
                 html: true
             },
         },
+        environments: {
+			static: {
+				templateData: {
+					site: {
+						url: 'http://fernandabernardo.com.br/eventos-tech/'
+					}
+				}
+			}
+		},
         collections: function() {
             var collections = {
                 events: function() {

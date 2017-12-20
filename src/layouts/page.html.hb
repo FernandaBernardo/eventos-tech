@@ -14,13 +14,13 @@
 	<meta property="og:description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
 	<meta property="og:site_name" content="Eventos Tech">
 	<meta itemprop="description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
-	<link rel="icon" type="image/png" href="{{site.baseUrl}}/images/favicon.png">
-	<link rel="stylesheet" type="text/css" href="{{site.baseUrl}}/reset.css">
-	<link rel="stylesheet" type="text/css" href="{{site.baseUrl}}/main.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<header class="header container">
-		<h1><a href="{{site.baseUrl}}"><img src="{{site.baseUrl}}/images/logo.png" alt="Eventos Tech"></a></h1>
+		<h1><a href="/"><img src="images/logo.png" alt="Eventos Tech"></a></h1>
 		<nav class="nav">
 			<ul class="nav-list">
 				<li class="nav-item"><a href="#proximos-eventos">Próximos Eventos</a></li>
