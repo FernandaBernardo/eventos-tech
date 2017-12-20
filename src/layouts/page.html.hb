@@ -61,7 +61,7 @@
 						<h2 class="name"><a href="{{url}}" target="_blank">Call4Papers - {{name}}</a></h2>
 						<p class="description">{{description}}</p>
 						<ul class="event-infos">
-							<li class="link"><a href="{{url}}" target="_blank">Submeter palestra! (Até {{submission_date}})</a></li>
+							<li class="link"><a href="{{url}}" target="_blank">Submeter palestra! (Até {{formatDate submission_date}})</a></li>
 							<li class="date">Evento: {{formatDate date_event}}</li>
 							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
 						</ul>

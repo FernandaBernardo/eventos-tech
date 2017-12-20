@@ -8,6 +8,12 @@ const orderByDate = (eventA, eventB) => {
 	return moment(dateA).unix() - moment(dateB).unix();
 };
 
+const orderBySubmissionDate = (eventA, eventB) => {
+	let dateA = eventA.toJSON().submission_date,
+		dateB = eventB.toJSON().submission_date;
+	return moment(dateA).unix() - moment(dateB).unix();
+};
+
 const docpadConfig = function() {
     return {
         documentsPaths: ['documents', 'assets', 'events', 'call4papers'],
@@ -18,7 +24,7 @@ const docpadConfig = function() {
                         return this.getCollection(name).toJSON();
                     },
                     formatDate(date) {
-						return moment(date).utc().format('DD/MM/YYYY');
+						return date === null ? 'Em breve' : moment(date).utc().format('DD/MM/YYYY');
 					},
                 }
             },
@@ -41,7 +47,7 @@ const docpadConfig = function() {
                     return this.getCollection('html').findAll({type: 'events'}).setComparator(orderByDate);
                 },
                 call4papers: function() {
-                    return this.getCollection('html').findAll({type: 'call4papers'}).setComparator(orderByDate);
+                    return this.getCollection('html').findAll({type: 'call4papers'}).setComparator(orderBySubmissionDate);
                 }
             };
 
