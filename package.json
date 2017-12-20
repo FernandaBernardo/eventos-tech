@@ -14,6 +14,7 @@
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
     "start": "docpad run",
-    "new-event": "./new-event.js"
+    "new-event": "./new-event.js",
+    "new-call4paper": "./new-call4paper.js"
   }
 }
