@@ -9,18 +9,18 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Eventos Tech">
 	<meta name="twitter:description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
-	<meta property="og:url" content="https://fernandabernardo.github.io/eventos-tech">
+	<meta property="og:url" content="{{site.url}}">
 	<meta property="og:title" content="Eventos Tech">
 	<meta property="og:description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
 	<meta property="og:site_name" content="Eventos Tech">
 	<meta itemprop="description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
-	<link rel="icon" type="image/png" href="images/favicon.png">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="icon" type="image/png" href="{{site.url}}/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="{{site.url}}/reset.css">
+	<link rel="stylesheet" type="text/css" href="{{site.url}}/main.css">
 </head>
 <body>
 	<header class="header container">
-		<h1><a href="/"><img src="images/logo.png" alt="Eventos Tech"></a></h1>
+		<h1><a href="{{site.url}}"><img src="{{site.url}}/images/logo.png" alt="Eventos Tech"></a></h1>
 		<nav class="nav">
 			<ul class="nav-list">
 				<li class="nav-item"><a href="#proximos-eventos">Próximos Eventos</a></li>
@@ -41,7 +41,7 @@
 						<p class="description">{{description}}</p>
 						<ul class="event-infos">
 							<li class="link"><a href="{{url}}" target="_blank">{{url}}</a></li>
-							<li class="date">{{date_event}}</li>
+							<li class="date">{{formatDate date_event}}</li>
 							<li class="price">{{price}}</li>
 							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
 						</ul>

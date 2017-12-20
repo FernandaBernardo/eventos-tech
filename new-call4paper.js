@@ -11,14 +11,14 @@ const questions = [
     { name: 'description', type: 'input', message: 'Descrição do Call4Paper:' },
     { name: 'url', type: 'input', message: 'Url do Call4Paper:' },
     { name: 'url_image', type: 'input', message: 'Url da Imagem do Evento:' },
-    { name: 'date_event', type: 'input', message: 'Data do Evento:' },
+    { name: 'date_event', type: 'input', message: 'Data do Evento (YYYY-MM-dd):' },
     { name: 'submission_date', type: 'input', message: 'Data de Submissão:' },
     { name: 'address_maps', type: 'input', message: 'Url Maps do Evento:' },
     { name: 'address_name', type: 'input', message: 'Nome do Local do Evento:' },
 ];
 inquirer.prompt(questions).then(answers => {
     const eventName = answers.name,
-        fileName = slug(eventName.toLowerCase()),
+        fileName = 'c4p-' + slug(eventName.toLowerCase()),
         filePath = 'src/call4papers/' + fileName + '.html.md';
 
     shell.touch(filePath);
