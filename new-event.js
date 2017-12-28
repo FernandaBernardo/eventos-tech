@@ -11,7 +11,7 @@ const questions = [
     { name: 'description', type: 'input', message: 'Descrição do Evento:' },
     { name: 'url', type: 'input', message: 'Url do Evento:' },
     { name: 'url_image', type: 'input', message: 'Url da Imagem do Evento:' },
-    { name: 'date_event', type: 'input', message: 'Data do Evento:' },
+    { name: 'date_event', type: 'input', message: 'Data do Evento (YYYY-MM-dd):' },
     { name: 'price', type: 'input', message: 'Preço:' },
     { name: 'address_maps', type: 'input', message: 'Url Maps do Evento:' },
     { name: 'address_name', type: 'input', message: 'Nome do Local do Evento:' },

@@ -8,8 +8,9 @@
     "docpad-plugin-handlebars": "2.4.0",
     "docpad-plugin-markit": "2.4.0",
     "inquirer": "4.0.1",
-    "shelljs": "^0.7.8",
-    "slug": "^0.9.1"
+    "moment": "2.20.1",
+    "shelljs": "0.7.8",
+    "slug": "0.9.1"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {

@@ -157,6 +157,10 @@ a {
 	word-break: break-word;
 }
 
+.event-infos a {
+	vertical-align: middle;
+}
+
 .event-infos .link {
 	word-break: break-all;
 }
