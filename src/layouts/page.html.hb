@@ -38,12 +38,14 @@
 					</a>
 					<section class="event-main">
 						<h2 class="name"><a href="{{url}}" target="_blank">{{name}}</a></h2>
-						<p class="description">{{description}}</p>
+						<p class="description">{{#if description}} {{description}} {{else}} Em breve {{/if}}</p>
 						<ul class="event-infos">
 							<li class="link"><a href="{{url}}" target="_blank">{{url}}</a></li>
-							<li class="date">{{date_event}}</li>
-							<li class="price">{{price}}</li>
+							<li class="date">{{#if date_event}} {{date_event}} {{else}} A definir {{/if}}</li>
+							<li class="price">{{#if price}} {{price}} {{else}} Em breve {{/if}}</li>
+							{{#if address_name}}
 							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
+							{{/if}}
 						</ul>
 					</section>
 				</article>
