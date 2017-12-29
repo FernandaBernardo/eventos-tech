@@ -7,5 +7,5 @@ url_image: https://secure.meetupstatic.com/photos/event/3/c/6/7/global_431415463
 date_event: 2018-01-04
 price: Gratuito
 address_maps: 
-address_name: A definir
+address_name:
 ---

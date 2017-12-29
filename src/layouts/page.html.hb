@@ -43,9 +43,7 @@
 							<li class="link"><a href="{{url}}" target="_blank">{{url}}</a></li>
 							<li class="date">{{#if date_event}} {{formatDate date_event}} {{else}} A definir {{/if}}</li>
 							<li class="price">{{#if price}} {{price}} {{else}} Em breve {{/if}}</li>
-							{{#if address_name}}
-							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
-							{{/if}}
+							<li class="address">{{#if address_name}} <a href="{{address_maps}}" target="_blank">{{address_name}}</a> {{else}} A definir {{/if}}</li>
 						</ul>
 					</section>
 				</article>
@@ -64,8 +62,8 @@
 						<p class="description">{{description}}</p>
 						<ul class="event-infos">
 							<li class="link"><a href="{{url}}" target="_blank">Submeter palestra! (Até {{formatDate submission_date}})</a></li>
-							<li class="date">Evento: {{formatDate date_event}}</li>
-							<li class="address"><a href="{{address_maps}}" target="_blank">{{address_name}}</a></li>
+							<li class="date">Evento: {{#if date_event}}{{formatDate date_event}} {{else}} A definir {{/if}}</li>
+							<li class="address">{{#if address_name}}<a href="{{address_maps}}" target="_blank">{{address_name}}</a>{{else}}A definir{{/if}}</li>
 						</ul>
 					</section>
 				</article>
