@@ -14,6 +14,7 @@
 	<meta property="og:description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
 	<meta property="og:site_name" content="Eventos Tech">
 	<meta itemprop="description" content="Lista com os próximos eventos/meetups/reuniões de Tecnologia">
+	<meta name="google-site-verification" content="czYM7zJRuvXgrDOYiuncWTCWmk2w4SSafypP1xIdmXw" />
 	<link rel="icon" type="image/png" href="{{site.url}}/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="{{site.url}}/reset.css">
 	<link rel="stylesheet" type="text/css" href="{{site.url}}/main.css">
