@@ -126,6 +126,7 @@ a {
 
 .event-media img {
 	max-width: 100%;
+	max-height: 200px;
 }
 
 .event .name {
